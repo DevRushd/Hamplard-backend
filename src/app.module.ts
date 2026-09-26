@@ -43,6 +43,7 @@ import { TagsModule }         from './modules/tags/tags.module';
 import { LearningPathsModule } from './modules/learning-paths/learning-paths.module';
 import { WishlistModule } from './modules/wishlist/wishlist.module';
 import { BadgesModule } from './modules/badges/badges.module';
+import { PrivacyModule } from './modules/privacy/privacy.module';
 
 @Module({
   imports: [
@@ -96,6 +97,7 @@ import { BadgesModule } from './modules/badges/badges.module';
     LearningPathsModule,
     WishlistModule,
     BadgesModule,
+    PrivacyModule,
   ],
   providers: [
     // Issue #72 — role-based throttling runs before every route's own guards
